@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
+        'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+.p-menu .p-menuitem-link {
+    padding: 0px !important;
+    display: block !important;
+}
+.p-menu .p-submenu-header {
+    padding: 0px !important;
+}
+.wizard-body {
+    height: 80vh;
+    top: 10vh;
+}
+.sidebar-custom {
+    overflow: hidden;
+}
+.sidebar-custom:hover {
+    overflow: hidden scroll;
+    /* box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1); */
+}
+
+.createButtonNarrow {
+    width: 40px !important;
+    height: 40px !important;
+    border-radius: 50% !important;
+}
+.createButtonFull {
+    width: 9rem !important;
+    height: 40px !important;
+}
+.tenantCompanyName {
+    width: fit-content;
+    font-size: 18px;
+    line-height: 1.2;
+    word-wrap: break-word;
+}

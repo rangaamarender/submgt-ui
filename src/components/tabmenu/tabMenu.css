@@ -1,0 +1,125 @@
+/* TabMenuLayout styling */
+/* .tabmenu-layout {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    background-color: transparent;
+    border-bottom: 2px solid #dee2e6;
+}
+
+.left-side {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.right-side {
+    display: flex;
+    align-items: flex-end;
+    background-color: transparent;
+    margin-left: auto;
+    display: flex;
+    gap: 10px;
+} */
+
+/* OtherActions styling */
+/* .other-actions {
+    margin-left: auto;
+    display: flex;
+    gap: 10px;
+}
+
+/* TabContent styling */
+/* .tab-content {
+    margin-top: 0px;
+    padding: 0px;
+}
+
+.p-tabmenu .p-tabmenu-nav {
+    background-color: transparent;
+}
+
+.p-tabmenu .p-tabmenu-nav .p-tabmenuitem .p-menuitem-link {
+    background: transparent;
+}
+.p-tabmenu .p-tabmenu-nav .p-tabmenuitem.p-highlight .p-menuitem-link {
+    background: transparent;
+    border-color: #6366f1;
+    color: #6366f1;
+    border-width: 0 0 2px 0;
+}  */
+
+/* TabContent styling */
+/* .tab-content {
+    margin-top: 0px;
+    padding: 0px;
+}
+.p-tabview .p-tabview-panels {
+    padding: 0px !important;
+} */
+
+/* custom-tabView */
+
+/* .custom-tabView .p-tabview .p-tabview-nav li.p-highlight .p-tabview-nav-link {
+    color: #ff6600 !important;
+}
+.custom-tabView li.p-highlight .p-tabview-nav-link {
+    border: 0px !important;
+}
+.custom-tabView li.p-tabview-ink-bar {
+    background-color: #ff6600 !important;
+}
+
+.custom-tabView .p-tabview .p-tabview-nav li .p-tabview-nav-link a {
+    text-decoration: none;
+}
+.custom-tabView .p-tabview .p-tabview-nav li .p-tabview-nav-link {
+    border: hidden !important;
+}
+
+.custom-tabView-btn .p-button.p-button-secondary {
+    background: #ff6600 !important;
+    border: none !important;
+} */
+
+.tabmenu-layout {
+    display: flex;
+    padding: 0px;
+    background-color: transparent;
+}
+
+.left-side {
+    flex: 1;
+}
+
+.right-side {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    margin-left: auto;
+}
+
+.other-actions {
+    margin-left: auto;
+    display: flex;
+    gap: 10px;
+}
+
+.tab-content {
+    margin-top: 0px;
+    padding: 0px;
+}
+.p-tabview .p-tabview-nav li .p-tabview-nav-link {
+    background-color: transparent;
+}
+.p-tabview .p-tabview-nav li.p-highlight .p-tabview-nav-link {
+    background-color: transparent;
+}
+a {
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: none;
+    }
+}
